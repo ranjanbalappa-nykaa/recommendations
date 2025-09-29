@@ -1,0 +1,9 @@
+kind: simple
+block_size: 32
+shuffle_files: True
+shuffle_data: True
+mini_batch_size: 1024
+shuffle_buffer_num_mini_batches: 128
+max_readers: 4
+max_prefetch: 8
+macro_batches_multiples: 8

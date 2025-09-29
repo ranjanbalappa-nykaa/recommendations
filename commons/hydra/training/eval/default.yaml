@@ -1,0 +1,8 @@
+num_workers: ???
+max_eval_steps: 500
+eval_batch_size: "${eval: 2 ** 16}"
+predict: False
+compute_feature_importance: False
+feature_importance_steps: 10
+knn_top_k_list: [1, 5, 10, 20, 100, 200]
+#knn_max_query_batches_per_worker: Optional[int] = None

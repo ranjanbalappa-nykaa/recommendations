@@ -1,0 +1,8 @@
+project_name: "${model.kind} Training"
+experiment_name: "${hydra: job.config_name}/${model.type} ${model.name} experiment"
+run_name: "${run_id}"
+run_description: "${model.kind} training of ${model.name} of type ${model.type}  with config ${hydra: job.config_name}"
+trackers:
+  - name: MLFLOW
+    enabled: True
+#    mlflow_run_tags: {}

@@ -1,0 +1,4 @@
+kind: "ranker_ctr_cvr"
+type: "factorized_dlrm"
+name: "ranker_model"
+emb_dim: 64

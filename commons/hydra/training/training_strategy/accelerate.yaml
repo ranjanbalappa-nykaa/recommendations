@@ -1,0 +1,5 @@
+name: accelerate
+# can be one of "no" (full precision) or "fp16" (AMP)
+precision: "fp16"
+# in seconds
+timeout: 1800

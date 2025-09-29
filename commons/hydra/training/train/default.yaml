@@ -1,0 +1,8 @@
+num_workers: ???
+use_gpu: False
+batch_size: ???
+train_steps: 20000
+validation_steps: 500
+epochs: 2
+learning_rate: 0.005
+checkpoint_every_k_steps: 100
